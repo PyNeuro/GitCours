@@ -1,13 +1,23 @@
-table, td,th{
+table#tab1{
+    margin: 10%;
+}
+table#tab2{
+    margin: 15%
+}
+th.sec{
+    border: 5px solid gray
+}
+table#tab1, td,th{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    padding: 15px
+    padding: 15px;
     
 }
 th{
-    background-color: aquamarine
+    background-color: aquamarine;
 }
 td{
-    background-color: antiquewhite
+    background-color: antiquewhite;
+    font-size: 90%;
 }
